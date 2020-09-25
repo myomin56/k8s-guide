@@ -6,6 +6,6 @@ metadata: #information about our object we're deploying
 spec: #specifications for our object
   containers:
   - name: php-container #the name of the container within the pod
-    image: myomin/php72 #which container image should be pulled
+    image: webdevops/php-apache #which container image should be pulled
     ports:
     - containerPort: 80 #the port of the container within the pod
