@@ -1,7 +1,7 @@
 apiVersion: apps/v1 #version of the API to use
 kind: Deployment #What kin d of object we're deploying
 metadata: #information about vour object we're deploying
-  name: rsp-deployment #Name of the deployment
+  name: mm-rsp-deployment #Name of the deployment
   labels: #A tag on the deployments created
     app: php
 spec: #specifications for our object
